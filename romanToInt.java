@@ -2,7 +2,6 @@ public class romanToInt {
     public static void main(String[] args) {
         System.out.println(romanToInt("IV"));
     }
-
     public static int romanToInt(String s) {
         int res = 0;
         int max = 0;
@@ -16,7 +15,6 @@ public class romanToInt {
         }
         return res;
     }
-
     public static int getIntFromCharRoman(char c) {
         int value = 0;
         switch (c) {

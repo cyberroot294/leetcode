@@ -4,10 +4,10 @@
 public class reverseInteger {
 
     public static void main(String[] args) {
-        System.out.println(reverseInteger(-1534236469));
+        System.out.println(reverseInt(-1534236469));
     }
 
-    public static int reverseInteger(int num) {
+    public static int reverseInt(int num) {
         long res = 0;
         int temp = num;
         num = num < 0 ? -num : num;

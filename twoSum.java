@@ -5,7 +5,7 @@
 
 import java.util.*; 
 public class twoSum {
-    public static int[] twoSum(int[] nums, int target) {
+    public static int[] solveTheProblem(int[] nums, int target) {
         Map<Integer, Integer> maps = new HashMap<Integer, Integer>();
         for(int i = 0; i < nums.length; maps.put(nums[i], i++)) {
             System.out.printf("%s ", i);
@@ -19,6 +19,6 @@ public class twoSum {
     public static void main(String[] args) {
         int[] arr = { 2, 7, 11, 15 };
         int target = 9;
-        System.out.println(Arrays.toString(twoSum(arr, target)));
+        System.out.println(Arrays.toString(solveTheProblem(arr, target)));
     }
 }

@@ -1,8 +1,8 @@
 public class romanToInt {
     public static void main(String[] args) {
-        System.out.println(romanToInt("IV"));
+        System.out.println(convertToInt("IV"));
     }
-    public static int romanToInt(String s) {
+    public static int convertToInt(String s) {
         int res = 0;
         int max = 0;
         for (int i = s.length() - 1; i >= 0; i--) {
